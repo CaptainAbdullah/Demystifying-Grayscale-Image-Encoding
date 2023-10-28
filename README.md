@@ -31,10 +31,10 @@ Some such cases are given below:<br>
 I took an image of flowers. It was in RGB format. I converted into BGR scheme and then I converted it into grayscale.
 Then I plot Histogram of the image. The input and output images were:
 <h3>Input Image</h3>
-![Image description](https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/flower.jpg)
+<img src="https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/flower.jpg" >
 
 <h3>Output image</h3>
-![Image description](https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/output.png)
+<img src="https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/output.png">
 
 <h3>Key Point: How to understand the encoding scheme!</h3>
 If the histogram shows that most of the pixel values are close to 0, then the encoding scheme is 0 for black. If the histogram shows that most of the pixel values are close to 255, then the encoding scheme is 255 for black
