@@ -38,4 +38,4 @@ Some such cases are given below:
 <img src="https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/output.png" alt="Output Image">
 
 # Key Point: How to understand the encoding scheme!
-If the histogram shows that most of the pixel values are close to 0, then the encoding scheme is 0 for black. If the histogram shows that most of the pixel values are close to 255, then the encoding scheme is 255 for black. As we can clearly see that the frequency of 0 is greater than the frequency of 255, hence we can guess that the encoding scheme of the provided image is 0=black and 255=White
+If the histogram shows that most of the pixel values are close to 0, then the encoding scheme is 0 for black. If the histogram shows that most of the pixel values are close to 255, then the encoding scheme is 255 for black. As we can clearly see that the frequency of 0 is greater than the frequency of 255, hence we can guess that the encoding scheme of the provided image is black=0 and White=255
