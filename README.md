@@ -1,4 +1,4 @@
-# Demystifying Grayscale image encoding
+# Demystifying Grayscale Image Encoding
 Why we need multiple encoding schemes for grayscale images ?
 
 Grayscale images are commonly represented using 8 bits per pixel, which allows for 256 different intensity values. In this representation:
