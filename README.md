@@ -21,11 +21,20 @@ Some such cases are given below:<br>
   By encoding images with 255 representing black and 0 representing white, 
   we can make them easier to display on these devices.
 
+
 <h3>Real World Applications of Inverted Grayscale images</h3>
 <li>X-rays: Inverting the grayscale encoding of an X-ray can make it easier to see bone fractures and other abnormalities.</li>
 <li>MRIs: Inverting the grayscale encoding of an MRI can make it easier to see soft tissues, such as the brain and spinal cord.</li>
 <li>CT scans: Inverting the grayscale encoding of a CT scan can make it easier to see blood vessels and other internal structures.</li>
 <li>Ultrasound images: Inverting the grayscale encoding of an ultrasound image can make it easier to see the fetus and other internal structures.</li>
+
+I took an image of flowers. It was in RGB format. I converted into BGR scheme and then I converted it into grayscale.
+Then I plot Histogram of the image. The input and output images were:
+<h3>Input Image</h3>
+![Image description](https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/flower.jpg)
+
+<h3>Output image</h3>
+![Image description](https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/output.png)
 
 <h3>Key Point: How to understand the encoding scheme!</h3>
 If the histogram shows that most of the pixel values are close to 0, then the encoding scheme is 0 for black. If the histogram shows that most of the pixel values are close to 255, then the encoding scheme is 255 for black
