@@ -29,12 +29,12 @@ Some such cases are given below:
 - CT scans: Inverting the grayscale encoding of a CT scan can make it easier to see blood vessels and other internal structures.
 - Ultrasound images: Inverting the grayscale encoding of an ultrasound image can make it easier to see the fetus and other internal structures.
 
-I took an image of flowers. It was in RGB format. I converted into BGR scheme and then I converted it into grayscale.
-Then I plot Histogram of the image. The input and output images were:
-# Input Image
+**I took an image of flowers. It was in RGB format. I converted into BGR scheme and then I converted it into grayscale. Then I plot Histogram of the image. The input and output images were:**
+
+## Input Image
 <img src="https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/flower.jpg" alt="Input Image">
 
-# Output image
+## Output Image
 <img src="https://github.com/CaptainAbdullah/Demystifying-Grayscale-image-encoding/blob/main/output.png" alt="Output Image">
 
 # Key Point: How to understand the encoding scheme!
