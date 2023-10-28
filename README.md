@@ -6,7 +6,8 @@ Grayscale images are commonly represented using 8 bits per pixel, which allows f
 - 255 is typically used to represent white, indicating maximum intensity.
 
 But sometimes, we have to deviate from standard conventions in order to understand our subject-image effectively.
-Some such cases are given below:<br>
+Some such cases are given below:
+
 `To improve the contrast of images.`
   By encoding black as 255 and white as 0, we can create images with a higher contrast ratio. 
   This can be useful for tasks such as image segmentation and object detection. 
