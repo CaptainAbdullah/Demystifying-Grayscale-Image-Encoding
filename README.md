@@ -26,3 +26,7 @@ Some such cases are given below:<br>
 <li>MRIs: Inverting the grayscale encoding of an MRI can make it easier to see soft tissues, such as the brain and spinal cord.</li>
 <li>CT scans: Inverting the grayscale encoding of a CT scan can make it easier to see blood vessels and other internal structures.</li>
 <li>Ultrasound images: Inverting the grayscale encoding of an ultrasound image can make it easier to see the fetus and other internal structures.</li>
+
+<h3>Key Point: How to understand the encoding scheme!</h3>
+If the histogram shows that most of the pixel values are close to 0, then the encoding scheme is 0 for black. If the histogram shows that most of the pixel values are close to 255, then the encoding scheme is 255 for black
+<br>As we can clearly see that the frequency of 0 is greater than the frequency of 255, hence we can guess that the encoding scheme of the provided image is 0=black and 255=White
